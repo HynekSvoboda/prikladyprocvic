@@ -36,7 +36,7 @@ namespace prikladyprocvic
                 if (cislo > 2 &&cislo<= 5) break;
                 pocet++;
             }
-            if (pocet< n-1) label2.Text = "Došlo k předčasnému ukončení (bylo nalezeno číslo v intervalu (2;5> )";
+            if (pocet< n) label2.Text = "Došlo k předčasnému ukončení (bylo nalezeno číslo v intervalu (2;5> )";
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -54,7 +54,7 @@ namespace prikladyprocvic
                 if (cislo > 2 && cislo <= 5) rychlost = true;
                 pocet++;
             }
-            if (pocet < n - 1) label2.Text = "Došlo k předčasnému ukončení (bylo nalezeno číslo v intervalu (2;5> )";
+            if (pocet < n ) label2.Text = "Došlo k předčasnému ukončení (bylo nalezeno číslo v intervalu (2;5> )";
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -78,7 +78,7 @@ namespace prikladyprocvic
                 pocet++;
                 i++;
             }
-            if (pocet < n - 1) label2.Text = "Došlo k předčasnému ukončení (bylo nalezeno číslo v intervalu (2;5> )";
+            if (pocet < n ) label2.Text = "Došlo k předčasnému ukončení (bylo nalezeno číslo v intervalu (2;5> )";
         }
 
         private void button5_Click(object sender, EventArgs e)
@@ -99,7 +99,7 @@ namespace prikladyprocvic
                     pocet++;
                     i++;
                 } while (i < n && rychlost == false);
-                if (pocet < n - 1) label2.Text = "Došlo k předčasnému ukončení (bylo nalezeno číslo v intervalu (2;5> )";
+                if (pocet < n ) label2.Text = "Došlo k předčasnému ukončení (bylo nalezeno číslo v intervalu (2;5> )";
             }
         }
 
